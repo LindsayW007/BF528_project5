@@ -8,19 +8,11 @@ Baron, Maayan, Adrian Veres, Samuel L. Wolock, Aubrey L. Faust, Renaud Gaujoux, 
 ## Programmer.R
 * Dependencies: R
 * Inputs: quants_mat.gz
-* Outputs: .rda file,
-*          plots for matrix features
-* Tasks: Perform QC for UMI matrix,
-*        Identify clusters o cell type subpopulations
+* Outputs: .rda file, plots for matrix features
+* Tasks: Perform QC for UMI matrix, Identify clusters o cell type subpopulations
 
 ## Analyst.R
 * Dependencies: R
 * Inputs: .rda file
-* Outputs: UMAP clustered image, 
-*          heatmaps of marker expression, 
-*          .csv of novel marker genes
-* Tasks: Identify marker genes for each cluster,
-*        Label cluster cell types (manually),
-*        Visualize clustered cells,
-*        Visualize top marker genes per cluster,
-*        Identify novel marker genes
+* Outputs: UMAP clustered image, heatmaps of marker expression, .csv of novel marker genes
+* Tasks: Identify marker genes for each cluster, Label cluster cell types (manually), Visualize clustered cells, Visualize top marker genes per cluster, Identify novel marker genes
